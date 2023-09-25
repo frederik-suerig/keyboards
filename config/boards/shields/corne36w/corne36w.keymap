@@ -8,11 +8,6 @@
   release-after-ms = <STICKY_KEY_TIMEOUT>;
 };
 
-&mt {
-    tapping-term-ms = <100>;
-};
-
-
 &caps_word {
   continue-list = <UNDERSCORE MINUS BACKSPACE>;
 };
@@ -63,7 +58,6 @@
       bindings = <&mo>, <&kp>;
     };
 
-
   };
 
   /*
@@ -92,7 +86,7 @@
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
              &kp Q         &kp W         &kp E        &kp R         &kp T              &kp Y         &kp U         &kp I         &kp O         &kp P
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-             &mt LALT A    &mt LCTRL S   &mt LGUI D    &mt LSHIFT F   &kp G            &kp H         &mt LSHIFT J   &mt LGUI K   &mt LCTRL L    &mt LALT SEMI
+            &ht_bl LALT A  &ht_bl LCTRL S &ht_bl LGUI D  &ht_bl LSHIFT F  &kp G        &kp H        &ht_bl LSHIFT J  &ht_bl LGUI K  &ht_bl LCTRL L   &ht_bl LALT SEMI
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
              &kp Z         &kp X         &kp C         &kp V              &kp B        &kp N         &kp M         &kp COMMA     &kp DOT      &kp SLASH
         // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
