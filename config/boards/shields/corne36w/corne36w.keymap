@@ -8,6 +8,11 @@
   release-after-ms = <STICKY_KEY_TIMEOUT>;
 };
 
+&mt {
+    tapping-term-ms = 100;
+};
+
+
 &caps_word {
   continue-list = <UNDERSCORE MINUS BACKSPACE>;
 };
