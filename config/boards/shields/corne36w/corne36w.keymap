@@ -58,6 +58,16 @@
       bindings = <&mo>, <&kp>;
     };
 
+    gqt: global-quick-tap {
+      compatible = "zmk,behavior-hold-tap";
+      label = "GLOBAL_QUICK_TAP";
+      #binding-cells = <2>;
+      flavor = "tap-preferred";
+      tapping-term-ms = <200>;
+      quick-tap-ms = <125>;
+      global-quick-tap;
+      bindings = <&kp>, <&kp>;
+   };
   };
 
   /*
@@ -86,7 +96,7 @@
         // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
              &kp Q         &kp W         &kp E        &kp R         &kp T              &kp Y         &kp U         &kp I         &kp O         &kp P
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-            &ht_bl LALT A  &ht_bl LCTRL S &ht_bl LGUI D  &ht_bl LSHIFT F  &kp G        &kp H        &ht_bl LSHIFT J  &ht_bl LGUI K  &ht_bl LCTRL L   &ht_bl LALT SEMI
+            &gqt LALT A   &gqt LCTRL S  &gqt LGUI D   &gqt LSHIFT F   &kp G            &kp H        &gqt LSHIFT J   &gqt LGUI K   &gqt LCTRL L    &gqt LALT SEMI 
         // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
              &kp Z         &kp X         &kp C         &kp V              &kp B        &kp N         &kp M         &kp COMMA     &kp DOT      &kp SLASH
         // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
