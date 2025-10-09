@@ -5,7 +5,8 @@
 #define NAV 1
 #define NUM 2
 #define FKEY 3
-#define GAME 4
+#define VIM 4
+#define GAME 5
 
 #define SK(KEY) &nk KEY KEY
 #define MO(LAYER) &mo_tap LAYER F24
