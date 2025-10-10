@@ -4,8 +4,8 @@
 #define BASE 0
 #define NAV 1
 #define NUM 2
-#define FKEY 3
-#define VIM 4
+#define VIM 3
+#define FKEY 4
 #define GAME 5
 
 #define SK(KEY) &nk KEY KEY
