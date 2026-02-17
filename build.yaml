@@ -17,20 +17,16 @@ include:
     shield: corne36w_left
   - board: nice_nano_v2
     shield: corne36w_right
-  - board: piantor_pro_bt_left/nrf52840
+  - board: piantor_pro_bt_left
     shield: nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: piantor_pro_bt_left-nice_view-zmk
-  - board: piantor_pro_bt_right/nrf52840
+  - board: piantor_pro_bt_right
     shield: nice_view
     snippet: studio-rpc-usb-uart
-    artifact-name: piantor_pro_bt_right-nice_view-zmk
-  - board: piantor_pro_bt_left/nrf52840
+  - board: piantor_pro_bt_left
     shield: settings_reset
     snippet: studio-rpc-usb-uart
-    artifact-name: piantor_pro_bt_left-settings_reset-zmk
-  - board: piantor_pro_bt_right/nrf52840
+  - board: piantor_pro_bt_right
     shield: settings_reset
     snippet: studio-rpc-usb-uart
-    artifact-name: piantor_pro_bt_right-settings_reset-zmk
