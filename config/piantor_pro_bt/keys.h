@@ -7,6 +7,7 @@
 #define VIM 3
 #define FKEY 4
 #define GAME 5
+#define BT 6
 
 #define SK(KEY) &nk KEY KEY
 #define MO(LAYER) &mo_tap LAYER F24
