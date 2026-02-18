@@ -2,12 +2,12 @@
 #define ___ &trans
 
 #define BASE 0
-#define NAV 1
-#define NUM 2
-#define VIM 3
-#define FKEY 4
-#define GAME 5
-#define COLEMAK 6
+#define COLEMAK 1
+#define NAV 2
+#define NUM 3
+#define VIM 4
+#define FKEY 5
+#define GAME 6
 #define BT 7
 
 #define SK(KEY) &nk KEY KEY
